@@ -1,7 +1,6 @@
-for index in range(0,101):
-	if index % 3 == 0 :
-		print( str(index) + " " +  "fizz")
-	if index % 5 == 0:
-		print( str(index) + " " +  "buzz")
-	if index % 5 == 0 and index % 3 == 0:
-		print( str(index) + " " +  "fizzbuzz")
+def factorial(n):
+	result = 1
+	for i in range(1,n + 1):
+		result = result * i
+	return result
+print(factorial(4))
