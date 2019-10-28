@@ -8,4 +8,4 @@ def hash_string(string):
 
 	return hashlib.sha256(string.encode('utf-8')).hexdigest()
 
-print(hash_string("Hello!"))
+print (len((hash_string("Hello"))))
